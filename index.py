@@ -83,7 +83,27 @@ while True:
     player1 -=randint(1,5)
     player2 -=randint(1,5)
     i+=1
-
 print("-------------------------------------------------------------------------------------------")
+
+numbers = [1,2,3,4,5,67,8,9,0]
+print(dir(numbers))
+numbers2 = list(range(1,4,2))
+
+sentence = "hey ravine, discipline is key".split(" ")
+words = "ravine"
+word = list(words)
+
+print(sentence)
+print(word)
+
+
+
+print(numbers2)
+
+for i in numbers:
+    print(i)
+
+for index,value in enumerate(numbers):
+    print(index,value, sep=":")
 # for item in enumerate()
 
